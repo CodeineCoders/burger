@@ -1,0 +1,28 @@
+h2 {
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+	background-color: rgb(182, 155, 0);
+}
+
+.textbox {
+	text-align: center;
+}
+
+.submit {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.not-eaten {
+	float: left;
+}
+
+.devour-button {
+	margin: 0 5px 0 5px;
+}
