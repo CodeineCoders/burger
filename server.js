@@ -6,8 +6,8 @@ var PORT = process.env.PORT || 3000;
 
 var app = express();
 
-// serve static content for the app from the "public" directory
-app.use(express.static('public'));
+// serve static content for the app from the "public" directorycoo
+app.use(express.static(__dirname + '/public'));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
